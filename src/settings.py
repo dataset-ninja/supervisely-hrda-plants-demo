@@ -22,10 +22,10 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.CC_BY_SA_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.Agricultural(),
-    Industry.Robotics(),
+    Industry.Agricultural(is_used=False),
+    Industry.Robotics(is_used=False),
 ]
-CATEGORY: Category = Category.Tutorial(featured=True)
+CATEGORY: Category = Category.Tutorial(featured=True, is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]

@@ -1,4 +1,4 @@
-**Supervisely HRDA Plants Demo** is a dataset for instance segmentation and semantic segmentation tasks. It is used in the agricultural and robotics industries. 
+**Supervisely HRDA Plants Demo** is a dataset for instance segmentation and semantic segmentation tasks. Possible applications of the dataset could be in the agricultural and robotics industries. The dataset presented here is not the original one. Learn more on the dataset's homepage.
 
 The dataset consists of 2284 images with 1482 labeled objects belonging to 2 different classes including *sugar beet* and *weed*.
 
