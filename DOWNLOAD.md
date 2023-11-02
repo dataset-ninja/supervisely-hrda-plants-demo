@@ -1,4 +1,4 @@
-Please visit dataset [homepage](https://www.ipb.uni-bonn.de/data/sugarbeets2016/) to download the data. 
+Please visit dataset [homepage](https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/) to download the data. 
 
 Afterward, you have the option to download it in the universal [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format) by utilizing the *dataset-tools* package:
 ``` bash
