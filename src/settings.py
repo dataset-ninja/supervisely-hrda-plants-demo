@@ -15,14 +15,17 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Supervisely HRDA Plants Demo"
 PROJECT_NAME_FULL: str = "Supervisely HRDA Plants Demo"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_SA_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural(), Industry.Robotics()]
-CATEGORY: Category = Category.Tutorial()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Agricultural(),
+    Industry.Robotics(),
+]
+CATEGORY: Category = Category.Tutorial(featured=True)
 
 CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
@@ -31,7 +34,9 @@ RELEASE_DATE: Optional[str] = "2023-10-19"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/"
+HOMEPAGE_URL: str = (
+    "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/"
+)
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 7520575
@@ -43,7 +48,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/supervisely-hrda-plants-demo
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = None
+DOWNLOAD_ORIGINAL_URL: Optional[
+    Union[str, dict]
+] = "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
