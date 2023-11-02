@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = "2023-10-19"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://www.ipb.uni-bonn.de/data/sugarbeets2016/"
+HOMEPAGE_URL: str = "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised/"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 7520575
@@ -56,7 +56,8 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Supervisely"]
+AUTHORS: Optional[List[str]] = None
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://supervisely.com/"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Supervisely"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://supervisely.com/"
@@ -110,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
