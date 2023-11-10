@@ -27,7 +27,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
 ]
 CATEGORY: Category = Category.Tutorial(featured=True, is_original_dataset=False)
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.SemiSupervisedLearning()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2023-10-19"  # e.g. "YYYY-MM-DD"
