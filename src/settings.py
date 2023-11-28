@@ -59,7 +59,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = "https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised"
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None #"https://supervisely.com/blog/train-a-model-with-62-labeled-images-hrda-semi-supervised"
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
