@@ -1,6 +1,6 @@
 Dataset **Supervisely HRDA Plants Demo** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/N/5/XT/YgkEtGPZNJnoIWu9uSyX8AIGSwehXw8mjmsLOZpuuyz0maz9ScklR7RIQyvY7K75IZ7kNJWBR7maap4eBzcorviJr7irJS5Jt7XZZRaU2D8nrmuB2z9w7IuIAKCu.tar)
+ [Download](https://www.dropbox.com/scl/fi/5hgkw1nf5hsikj139iu1b/supervisely-hrda-plants-demo-DatasetNinja.tar?rlkey=r75s44jh5fe5aah7ru9i5gono&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
